@@ -1,10 +1,10 @@
 * {
 	margin:0;
 	padding: 0;
+	font-family: 'Spartan', sans-serif;
 }
 
 body {
-	font-family: 'Spartan', sans-serif;
   	background-image: url(images/bg-pattern-bottom-desktop.svg), url(images/bg-pattern-top-desktop.svg);
   	background-position: right bottom, left top;
   	background-repeat: no-repeat, no-repeat;
@@ -29,7 +29,6 @@ h2 {
 	color: hsl(303, 10%, 53%);
 	font-size: 15px;
 	margin: 15px 0 0 0;
-	width: 450px;
 	line-height: 24px;
 }
 
@@ -51,10 +50,20 @@ span {
 }
 
 .left, .right{
-	display: inline-block;
-	width:49%;
+
 	outline-style: solid;
-	vertical-align: top;
+}
+
+.right{
+	display: flex;
+  	flex-direction: column;
+  	width: 50%;
+}
+
+.left{
+	display: flex;
+  	flex-direction: column;
+  	width: 50%;
 }
 
 
@@ -87,7 +96,6 @@ span {
 	border-radius: 10px;
 	margin-top: 16px;
 	padding: 4px 32px;
-	width: 370px;
 }
 
 
@@ -119,14 +127,17 @@ h3{
 
 .first{
 	margin-right: 10px;
+	align-self: flex-start;
 }
 
 .second{
 	margin: 15px 10px 0 10px;
+	align-self: center;
 }
 
 .third{
 	margin:25px 0 0 10px;
+	align-self: flex-end;
 }
 
 .top, .bottom {
@@ -135,14 +146,36 @@ h3{
 
 .bottom{
 	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items:flex-start;
+}
+
+.top{
+	display: flex;
 }
 
 .firsto{
-
+	align-self: flex-start;
 }
 .secondo{
-	margin-left:35px;
+	align-self: center;
 }
 .thirdo{
-	margin-left:70px;
+	align-self: flex-end;
+}
+
+
+@media only screen and (max-width: 375px) {
+  .bottom {
+    flex-direction: column;
+  }
+
+  .top {
+  	flex-direction: column;
+  }
+
+  .testemonial{
+  	width: initial;
+  }
 }
