@@ -1,3 +1,135 @@
 body {
-	background-image: url("paper.gif");
+	font-family: 'Spartan', sans-serif;
+  	background-image: url(images/bg-pattern-bottom-desktop.svg), url(images/bg-pattern-top-desktop.svg);
+  	background-position: right bottom, left top;
+  	background-repeat: no-repeat, no-repeat;
+  	background-size: 80%, 40%;
+}
+
+
+h1, .rating p {
+	color: hsl(300, 43%, 22%);
+	margin: 0;
+	line-height: 46px;
+	font-weight: 700;
+}
+
+.rating p{
+	font-size: 14px;
+	margin-left: 20px;
+}
+
+h2 {
+	font-weight: 400;
+	color: hsl(303, 10%, 53%);
+	font-size: 15px;
+	margin: 15px 0 0 0;
+	width: 450px;
+	line-height: 24px;
+}
+
+h1 {
+	font-size:45px;
+	text-align: left;
+}
+
+.center{
+	margin:8% 10%;
+}
+
+div{
+	display: block;
+}
+
+span {
+	display: inline-block;
+}
+
+.left, .right{
+	display: inline-block;
+	width:49%;
+	outline-style: solid;
+	vertical-align: top;
+}
+
+
+.testemonial{
+	background-color: hsl(300, 43%, 22%);
+	width: 25%;
+	border-radius: 8px;
+	padding: 35px 33px;
+	vertical-align: top;
+
+}
+
+
+.testemonial img{
+	border-radius: 50%;
+	display:inline-block;
+	width:40px;
+}
+
+.status{
+	font-weight: 400;
+	color: hsl(333, 80%, 67%);
+	display:block;
+}
+
+.comment{
+	color: hsl(0, 0%, 100%);
+	display: block;
+	font-size: 11px;
+	line-height: 20px;
+	margin: 22px 0 0 0;
+}
+
+.rating {
+	background-color: hsl(300, 24%, 96%);
+	border-radius: 10px;
+	margin-top: 16px;
+	padding: 6px 35px;
+}
+
+
+.stars img{
+	margin-right:5px;
+}
+
+.user h3, .user p{
+	margin:0;
+}
+
+h3{
+	font-weight: 500;
+	color: hsl(0, 0%, 100%);
+	font-size: 16px;
+}
+
+.user p{
+	font-size: 15px;
+}
+
+.user {
+	margin-left:20px;
+	text-align: left;
+}
+
+.first{
+	margin-right: 10px;
+}
+
+.second{
+	margin: 15px 10px 0 10px;
+}
+
+.third{
+	margin:25px 0 0 10px;
+}
+
+.top, .bottom {
+	outline-style: solid;
+}
+
+.bottom{
+	margin-top: 50px;
 }
