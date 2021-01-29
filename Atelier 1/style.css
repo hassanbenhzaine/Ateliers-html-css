@@ -203,6 +203,7 @@ h3{
 
 .right{
 	width:100%;
+	margin-top:34px;
 }
 
 h1,h2{
@@ -221,5 +222,12 @@ h1,h2{
 
 .rating{
 	text-align: center
+}
+
+body {
+  	background-image: url(images/bg-pattern-bottom-mobile.svg), url(images/bg-pattern-top-mobile.svg);
+  	background-position: right bottom, left top;
+  	background-repeat: no-repeat, no-repeat;
+  	background-size: 80%, 40%;
 }
 }
