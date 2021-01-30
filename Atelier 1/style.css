@@ -231,3 +231,15 @@ body {
   	background-size: 80%, 40%;
 }
 }
+
+@media only screen and (max-width: 490px) {
+	.rating p{
+		margin-left:0;
+		display: block;
+		margin-top: 7px;
+	}
+
+	.stars{
+		display: block;
+	}
+}
