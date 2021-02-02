@@ -9,9 +9,16 @@ body {
   	background-position: right bottom, left top;
   	background-repeat: no-repeat, no-repeat;
   	background-size: 75%, 40%;
-  	padding: 4% 10%;
+  	display:flex; 
+  	flex-direction:column; 
+  	justify-content:center;
+  min-height:100vh;
 }
 
+
+.center{
+	margin: 0 10%;
+}
 
 h1, .rating p {
 	color: hsl(300, 43%, 22%);
@@ -70,7 +77,6 @@ span {
 	width: 25%;
 	border-radius: 8px;
 	padding: 35px 33px;
-	vertical-align: top;
 
 }
 
@@ -142,8 +148,9 @@ h3{
 .bottom{
 	margin-top: 50px;
 	display: flex;
-	justify-content: center;
-	align-items:flex-start;
+	justify-content: space-between;
+    align-items: center;
+    align-content: center;
 }
 
 .top{
@@ -168,6 +175,10 @@ h3{
   .bottom {
     flex-direction: column;
   }
+
+  .center{
+	margin: 8%;
+}
 
   .top {
   	flex-direction: column;
