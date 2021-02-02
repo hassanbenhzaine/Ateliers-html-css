@@ -8,8 +8,8 @@ body {
   	background-image: url(images/bg-pattern-bottom-desktop.svg), url(images/bg-pattern-top-desktop.svg);
   	background-position: right bottom, left top;
   	background-repeat: no-repeat, no-repeat;
-  	background-size: 80%, 40%;
-  	padding: 8% 10%;
+  	background-size: 75%, 40%;
+  	padding: 4% 10%;
 }
 
 
@@ -40,6 +40,7 @@ h1 {
 
 h1,h2{
 	text-align: left;
+		width: 90%;
 }
 
 div{
@@ -50,10 +51,6 @@ span {
 	display: inline-block;
 }
 
-.left, .right{
-
-	outline-style: solid;
-}
 
 .right{
 	display: flex;
@@ -95,7 +92,6 @@ span {
 .rating {
 	background-color: hsl(300, 24%, 96%);
 	border-radius: 10px;
-	margin-top: 16px;
 	padding: 16px 32px;
 	text-align: center;
 }
@@ -142,9 +138,6 @@ h3{
 	align-self: flex-end;
 }
 
-.top, .bottom {
-	outline-style: solid;
-}
 
 .bottom{
 	margin-top: 50px;
@@ -163,13 +156,15 @@ h3{
 }
 .secondo{
 	align-self: center;
+	margin-top: 16px;
 }
 .thirdo{
 	align-self: flex-end;
+	margin-top: 16px;
 }
 
 
-@media only screen and (max-width: 862px) {
+@media only screen and (max-width: 900px) {
   .bottom {
     flex-direction: column;
   }
@@ -203,11 +198,12 @@ h3{
 
 .right{
 	width:100%;
-	margin-top:34px;
+	margin-top:50px;
 }
 
 h1,h2{
 	text-align: center;
+	width: 100%;
 }
 
 .firsto{
