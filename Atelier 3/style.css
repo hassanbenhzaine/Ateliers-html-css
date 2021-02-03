@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
+    align-items: center;
 }
 
 .grid-container {
@@ -20,7 +21,8 @@ body {
   grid-template-areas:
     "danniel danniel jonathan kira"
     "jeanette patrick patrick kira";
-  margin: 0 11%;
+    width: 70%;
+    margin:2% 0;
 }
 
 .danniel { 
@@ -112,7 +114,7 @@ h2{
 	height: 98px;
     position: absolute;
     top: 0;
-    right: 70px;
+       right: 17%;
     width: auto;
 
 }
@@ -148,7 +150,7 @@ h3 {
 }
 
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1060px) {
 
 	.grid-container {
 		  display: grid;
@@ -159,13 +161,13 @@ h3 {
 		    "danniel danniel jonathan"
 		    "jeanette patrick patrick"
 		    "kira kira kira";
-      margin:0 11%;
+      margin:2% 11%;
 }
 
 } 
 
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 800px) {
 
 .grid-container {
   display: grid;

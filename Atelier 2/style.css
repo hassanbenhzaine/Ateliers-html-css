@@ -21,7 +21,7 @@ body {
 
 .left{
 
-	width:30%;
+	width:33%;
 	border-radius: 10px 80px 10px 10px;
 	background-color: #1e2c69;
 	padding: 32px;
@@ -40,7 +40,7 @@ body {
 
 .right{
 	width:60%;
-	margin-left:27px;
+	margin-left:26px;
 	position: relative;
 	padding: 32px;
 	background-color: #1e2c69;
@@ -98,7 +98,7 @@ body {
 	display: flex;
     flex-direction: row;
     align-items: center;
-    width: 60%;
+    width: 70%;
 }
 
 .storage{
@@ -121,7 +121,7 @@ body {
 }
 
 
-@media only screen and (max-width: 867px) {
+@media only screen and (max-width: 740px) {
 	.center{
 		flex-direction: column;
 	}
